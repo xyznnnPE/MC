@@ -10,7 +10,6 @@ def Spacetime(x, y, z, n):
     ]
 class X():    
     def smallX(n):
-        
         for SmallX in range([n, 0, n],
                             [0, n, 0],
                             [n, 0, n]):
