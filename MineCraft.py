@@ -1,4 +1,5 @@
 import math
+import Spacetime
 def Spacetime(x, y, z, n):
     return [
         x-n,y+n,z-n, x-n,y+n,z+n, x+n,y+n,z+n, x+n,y+n,z-n,  # a
