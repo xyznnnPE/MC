@@ -9,6 +9,20 @@ def Spacetime(x, y, z, n):
         x+n,y-n,z-n, x-n,y-n,z-n, x-n,y+n,z-n, x+n,y+n,z-n,  # f
     ]
 class X():    
+    def smallX(n):
+        
+        for SmallX in range([n, 0, n],
+                            [0, n, 0],
+                            [n, 0, n]):
+            return [1,2,3,4,5,6,7,8,9]  
+                                
+    def MiddleX(n):
+        for MiddleX in range([n, 0, 0, n],
+                             [0, n, n, 0],
+                             [0, n, n, 0],
+                             [n, 0, 0, n]):
+            return [1,2,3,4,5,6,7,8,9]
+
     def BigX(n):
         for BigX in range([n, 0, 0, 0, n],
                           [0, n, 0, n, 0],
@@ -16,21 +30,22 @@ class X():
                           [0, n, 0, n, 0],
                           [n, 0, 0, 0, n]):
             return [1,2,3,4,5,6,7,8,9]
-            
-    def MiddleX(n):
-        for MiddleX in range([n, 0, 0, n],
-                             [0, n, n, 0],
-                             [0, n, n, 0],
-                             [n, 0, 0, n]):
-            return [1,2,3,4,5,6,7,8,9]
-    
-    def smallX(n):
-        for SmallX in range([n, 0, n],
-                            [0, n, 0],
-                            [n, 0, n]):
-            return [1,2,3,4,5,6,7,8,9]
-        
+                              
 class Y():    
+
+    def smallY(n):
+        for SmallY in range([n, 0, n],
+                            [0, n, 0],
+                            [0, n, 0]):
+            return [1,2,3,4,5,6,7,8,9]
+                                
+    def MiddleY(n):
+        for MiddleY in range([n, 0, 0, n],
+                             [0, n, n, 0],
+                             [0, n, n, 0],
+                             [0, n, n, 0]):
+            return [1,2,3,4,5,6,7,8,9]
+
     def BigY(n):
         for BigY in range([n, 0, 0, 0, n],
                           [0, n, 0, n, 0],
@@ -38,21 +53,23 @@ class Y():
                           [0, 0, n, 0, 0],
                           [0, 0, n, 0, 0]):
             return [1,2,3,4,5,6,7,8,9]
-            
-    def MiddleY(n):
-        for MiddleY in range([n, 0, 0, n],
-                             [0, n, n, 0],
-                             [0, n, n, 0],
-                             [0, n, n, 0]):
-            return [1,2,3,4,5,6,7,8,9]
-    
-    def smallY(n):
-        for SmallY in range([n, 0, n],
-                            [0, n, 0],
-                            [0, n, 0]):
-            return [1,2,3,4,5,6,7,8,9]
 
 class Z():    
+
+        
+    def smallZ(n):
+        for SmallZ in range([n, n, n],
+                            [0, n, 0],
+                            [n, n, n]):
+            return [1,2,3,4,5,6,7,8,9]
+                                
+    def MiddleZ(n):
+        for MiddleZ in range([n, n, n, n],
+                             [0, 0, n, 0],
+                             [0, n, 0, 0],
+                             [n, n, n, n]):
+            return [1,2,3,4,5,6,7,8,9]
+
     def BigZ(n):
         for BigZ in range([n, n, n, n, n],
                           [0, 0, 0, n, 0],
@@ -60,21 +77,23 @@ class Z():
                           [0, n, 0, 0, 0],
                           [n, n, n, n, n]):
             return [1,2,3,4,5,6,7,8,9]
-            
-    def MiddleZ(n):
-        for MiddleZ in range([n, n, n, n],
-                             [0, 0, n, 0],
-                             [0, n, 0, 0],
-                             [n, n, n, n]):
-            return [1,2,3,4,5,6,7,8,9]
-    
-    def smallZ(n):
-        for SmallZ in range([n, n, n],
-                            [0, n, 0],
-                            [n, n, n]):
-            return [1,2,3,4,5,6,7,8,9]
+                              
+class N(): 
         
-class N():    
+    def smallN(n):
+        for SmallZ in range([n, 0, n],
+                            [n, n, n],
+                            [n, 0, n]):
+            return [1,2,3,4,5,6,7,8,9]
+                                
+    def MiddleN(n):
+        for MiddleZ in range([n, 0, 0, n],
+                             [n, n, 0, n],
+                             [n, 0, n, n],
+                             [n, 0, 0, n]):
+            return [1,2,3,4,5,6,7,8,9]
+
+                                
     def BigN(n):
         for BigZ in range([n, 0, 0, 0, n],
                           [n, n, 0, 0, n],
@@ -83,19 +102,6 @@ class N():
                           [n, 0, 0, 0, n]):
             return [1,2,3,4,5,6,7,8,9]
             
-    def MiddleN(n):
-        for MiddleZ in range([n, 0, 0, n],
-                             [n, n, 0, n],
-                             [n, 0, n, n],
-                             [n, 0, 0, n]):
-            return [1,2,3,4,5,6,7,8,9]
-    
-    def smallN(n):
-        for SmallZ in range([n, 0, n],
-                            [n, n, n],
-                            [n, 0, n]):
-            return [1,2,3,4,5,6,7,8,9]
-
     def three(n):
         for inner in range([n-4],[n-3],[n-2],
                            [n-1],[n] ,[n+1],
@@ -106,6 +112,7 @@ class N():
                            [n+1],[n] ,[n-1],
                            [n-2],[n-3],[n-4]):
             return [9,8,7,6,5,4,3,2,1]
+                               
     def four(n):
         for inner in range([n+1],[n+1],[n+1],[n+1],
                            [n+1],[n],[n],[n+1],
