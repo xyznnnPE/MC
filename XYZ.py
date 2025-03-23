@@ -1,4 +1,5 @@
 import position
+import math
 def space(x,y,z,X,Y,Z):
         
         this.x = new
