@@ -1,7 +1,8 @@
 import math
-class polyhedron(): 
-    def Surface(Tetrahedron,Hexahedron,Octahedron,Dodecahedron,Icosahedron): 
-             Edges = 1
+class polyhedron(Tetrahedron,Hexahedron,Octahedron,Dodecahedron,Icosahedron):
+    
+    def Surface(): 
+             this.Edges = 1
              Tetrahedron = 8 * math.sqrt(3) / 3 * [Edges]
      
              Hexahedron = 8 * [Edges]
@@ -12,8 +13,8 @@ class polyhedron():
     
              Icosahedron = [30 * math.sqrt(3) - 10 * math.sqrt(15)] * [Edges]
 
-    def Volume(Tetrahedron,Hexahedron,Octahedron,Dodecahedron,Icosahedron):
-             Radius = 1
+    def Volume():
+             this.Radius = 1
              Tetrahedron = 8 * math.sqrt(3) * [Radius]/27
 
              Hexahedron = 8 * math.sqrt(3) * [Radius]/9
