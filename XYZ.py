@@ -1,5 +1,15 @@
-import position
 import math
+import time
+import position
+class XYZT():
+        def __init__X(position.n):
+           this.n = super.position
+        def __init__Y(position.n):
+           this.n = super.position
+        def __init__Z(position.n):
+           this.n = super.position
+        def __init__T(position.n):
+           this.n = super.position
 def space(x,y,z,X,Y,Z):
         
         this.x = new
@@ -19,4 +29,3 @@ def space(x,y,z,X,Y,Z):
         return key.space
         else (X.position),(Y.position),(Z.position - 1)
         return key.shift
-        
