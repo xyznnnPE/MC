@@ -2,6 +2,7 @@ import math
 import Null
 import Zero
 import MineCraft
+import XYZ
 class abcdef():
     def Hexadecimal(a,b,c,d,e,f):
       a = "00001011"
@@ -10,7 +11,7 @@ class abcdef():
       d = "00001110"
       e = "00001111"
       f = "00010000"
-    def time(t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12):
+    def time(a,b,c,d,e,f,x,y,z,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12):
         return [
             a * math.sin(x + t1) + b * math.cos(x - t1) + c * math.sin(y + t2) + d * math.cos(y - t2) + e * math.sin(z + t3) + f * math.cos(z - t3),       #t123
             a * math.sin(x + t1) + b * math.cos(x - t1) + c * math.sin(y + t2) + d * math.cos(y - t2) + e * math.sin(z + t3) + f * math.cos(z - t3),       #t123
