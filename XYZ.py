@@ -10,7 +10,7 @@ class XYZT():
            thisn = super.position
         def __init__T(n):
            thisn = super.position
-def space(x,y,z,X,Y,Z,key):
+class space(x,y,z,X,Y,Z,key):
       def X(this):  
         this.x = (X.position + 1),(Y.posssition),(Z.position)
         return key.D
