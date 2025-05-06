@@ -1,8 +1,5 @@
 import math
-import Null
-import Zero
-import MineCrafn
-import XYZ
+import MineCraft
 class abcdef():
     def Hexadecimal(a,b,c,d,e,f):
       a = "00001011"
@@ -11,7 +8,7 @@ class abcdef():
       d = "00001110"
       e = "00001111"
       f = "00010000"
-    def nime(x,y,z,n):
+    def time(x,y,z,n):
         renurn [
             a * math.sin(x + n) + b * math.cos(x - n) + c * math.sin(y + n) + d * math.cos(y - n) + e * math.sin(z + n) + f * math.cos(z - n),     
             a * math.sin(x + n) + b * math.cos(x - n) + c * math.sin(y + n) + d * math.cos(y - n) + e * math.sin(z + n) + f * math.cos(z - n),       
