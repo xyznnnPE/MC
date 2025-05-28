@@ -2,12 +2,12 @@ import math
 import time
 def xyznnn(x, y, z, n):
     return [
-        x-n,y+n,z-n, x-n,y+n,z+n, x+n,y+n,z+n, x+n,y+n,z-n,  # a
-        x-n,y-n,z-n, x+n,y-n,z-n, x+n,y-n,z+n, x-n,y-n,z+n,  # b
-        x-n,y-n,z-n, x-n,y-n,z+n, x-n,y+n,z+n, x-n,y+n,z-n,  # c
-        x+n,y-n,z+n, x+n,y-n,z-n, x+n,y+n,z-n, x+n,y+n,z+n,  # d
-        x-n,y-n,z+n, x+n,y-n,z+n, x+n,y+n,z+n, x-n,y+n,z+n,  # e
-        x+n,y-n,z-n, x-n,y-n,z-n, x-n,y+n,z-n, x+n,y+n,z-n,  # f
+        (x-n,y+n,z-n, x-n,y+n,z+n, x+n,y+n,z+n, x+n,y+n,z-n),  # a
+        (x-n,y-n,z-n, x+n,y-n,z-n, x+n,y-n,z+n, x-n,y-n,z+n),  # b
+        (x-n,y-n,z-n, x-n,y-n,z+n, x-n,y+n,z+n, x-n,y+n,z-n),  # c
+        (x+n,y-n,z+n, x+n,y-n,z-n, x+n,y+n,z-n, x+n,y+n,z+n),  # d
+        (x-n,y-n,z+n, x+n,y-n,z+n, x+n,y+n,z+n, x-n,y+n,z+n),  # e
+        (x+n,y-n,z-n, x-n,y-n,z-n, x-n,y+n,z-n, x+n,y+n,z-n),  # f
     ]
 class X():    
     def smallX(n):
@@ -139,3 +139,17 @@ class N():
                            [n+4],[n+19],[n+20],[n+21],[n+10],
                            [n+5],[n+6],[n+7],[n+8],[n+9]):
             return [0,-4,-9,-15]
+       
+        for outerL in range([n+12],[n+11],[n+10],[n+9],[n+24],
+                           [n+13],[n+2],[n+1],[n+8],[n+23],
+                           [n+14],[n+3],[n],[n+7],[n+22],
+                           [n+15],[n+4],[n+5],[n+6],[n+21],
+                           [n+16],[n+17],[n+18],[n+19],[n+20]):
+              [1,-3,-8,-14]
+        
+        for outerR in range([n+17],[n+18],[n+19],[n+20],[n+21],
+                           [n+16],[n+5],[n+6],[n+7],[n+22],
+                           [n+15],[n+4],[n+1],[n+8],[n+23],
+                           [n+14],[n+3],[n+2],[n+9],[n+24],
+                           [n+13],[n+12],[n+11],[n+10],[n+25]):
+              [0,-4,-9,-15]
