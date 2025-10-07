@@ -24,6 +24,3 @@ class polyhedron():
              Dodecahedron = [15 + 7 * math.sqrt(5)]/4 * [Radius]
 
              Tetrahedron = math.sqrt[25 + 10 * math.sqrt(5)]/4 * [Radius]
-    
-
-        
