@@ -54,7 +54,7 @@ int fn(a,b,c,d,e,f){
     const n3 = a * (n ^ 3) + b * (n ^ 2) + c * n  + d * (n ^ -1) + e * (n ^ -2) + c;
     const n2 = a * (n ^ 2) + b * n  + c * (n ^ -1) + d * (n ^ -2) + e * (n ^ -3) + d;
     const n1 = a * n + b * (n ^ -1) + c * (n ^ -2) + d * (n ^ -3) + e * (n ^ -4) + e;
-    const n0 = a * (n ^ -1)+ b * (n ^ -2) + c * (n ^ -3) + d * (n ^ -4) + e * (n ^ -5) + f;
+    const n0 = a * (n ^ -1) + b * (n ^ -2) + c * (n ^ -3) + d * (n ^ -4) + e * (n ^ -5) + f;
 }
 void xyznnn(x,y,z,n){
     char n5 = "'x+n,y+n,z+n', 'x+n,z+n,y+n', 'y+n,z+n,x+n', 'z+n,y+n,x+n'";
