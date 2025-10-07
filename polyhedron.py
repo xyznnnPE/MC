@@ -1,4 +1,22 @@
 import math
+from sympy import polyhedron
+import trimesh
+class wiki():
+    def polyhedron(Vertex,Edges,Faces):
+        self.Vertex = [V]
+        self.Edges = [E]
+        self.Faces = [F]
+        return V - E + F == 2
+
+    def abcdef(Tetrahedron,Hexhedron,Octahedron,Dodecahedron,Icosahedron):
+        this.dot = 0
+        this.line = 1
+        self.a = dotline
+        self.b = Tetrahedron
+        self.c = Hexhedron
+        self.d = Octahedron
+        self.e = Dodecahedron
+        self.f = Icosahedron      
 class polyhedron():
     
     def Surface(Edges): 
@@ -24,3 +42,4 @@ class polyhedron():
              Dodecahedron = [15 + 7 * math.sqrt(5)]/4 * [Radius]
 
              Tetrahedron = math.sqrt[25 + 10 * math.sqrt(5)]/4 * [Radius]
+        
